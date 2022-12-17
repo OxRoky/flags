@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.mn{
+    width: 500px;
+    height: 300px;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 150px;
+    
+}
+.flag{
+    width: 500px;
+    height: 300px;
+    background:rgb(1, 51, 1);
+    display: table-cell;
+    vertical-align: middle;
+    
+   
+    
+    
+}
+
+.round-red{
+    width: 166px;
+    height: 166px;
+    background: red;
+    border-radius: 50%;
+    
+   
+    
+    
+    
+}
+
+ 
+
+
+
+
+
+
+
+

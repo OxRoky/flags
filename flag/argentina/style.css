@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flag{
+    width: 400px;
+    height: 90px;
+    background-color: #74acdf;
+    margin-top: 100px;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 668px;
+    bottom: 318px;
+}

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+    margin-left: 500px;
+    margin-top: 200px;
+    background-color: #dddfdf;
+    font-size: 1.5px;
+ }
+
+ .pakistan{
+    width: 300em;
+    height: 200em;
+    background-color: #01411c;
+    position: relative;
+
+ }
+
+ .pakistan::after{
+    position: absolute;
+    content: " ";
+    background-color: white;
+    left: 0em;
+    width: 75em;
+    height:200em;
+ }
+
+.pakistan::before{
+    content: "";
+    position: absolute;
+    width: 120em;
+    height: 120em;
+    background-color: transparent;
+    border-radius: 80%;
+    top: 25em;
+    left: 135em;
+    box-shadow: -20em 0em 0em 0em white;
+    transform: rotate(-40deg);
+
+   
+}
+
+.star-five{
+
+    top: -65em;
+    left: 90em;
+    position: relative;
+    width: 0em;
+    height: 0em;
+    border-right: 10em solid transparent;
+    border-bottom: 7em solid white;
+    border-left: 10em solid transparent;
+    transform: rotate(0deg);
+    font-size: 2em;
+    z-index: 6;
+        
+}
+.star-five::before{
+    border-bottom: 8em solid white;
+    border-left: 3em solid transparent;
+    border-right: 3em solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -4em;
+    left: -6em;
+    content: "";
+    transform: rotate(-35deg);
+
+    
+
+}
+
+.star-five::after{
+    position: absolute;
+    color: black;
+    top: 0.3em;
+    left: -10.5em;
+    width: 0em;
+    border-right: 10em solid transparent;
+    border-bottom: 7em solid white;
+    border-left: 10em solid transparent;
+    transform: rotate(-70deg);
+    content:" ";
+
+}

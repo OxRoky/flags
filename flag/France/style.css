@@ -1,0 +1,44 @@
+
+
+body{
+    width:300px;
+    height: 180px;
+    margin-top: 200px;
+    margin-left: 500px;
+
+    
+
+}
+
+.france-flog{
+    padding: 33.33%;
+    background-color: white;
+    position: relative;
+    
+    
+    
+    
+    
+
+}
+
+.france-flog::before{
+    content: "";
+    width: 33.33%;
+    height: 100%;
+    background-color: #0055A4;
+    position:absolute;
+    top: 0px;
+    left: 0;
+
+}
+.france-flog::after{
+    content: "";
+    width: 33.33%;
+    height: 100%;
+    background-color: #ef4135;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
